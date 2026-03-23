@@ -1,6 +1,12 @@
 [package]
 name = "dotnet-rng"
-version = "0.1.0"
+version = "1.0.0"
+authors = ["BioTomateDE <latuskati+cratesio@gmail.com>", "Microsoft"]
 edition = "2024"
-
-[dependencies]
+rust-version = "1.85.1"
+description = "Implementation of .NET's Random algorithm based on Knuth's subtractive method"
+readme = "README.md"
+repository = "https://github.com/BioTomateDE/DotnetRNG"
+license = "MIT"
+keywords = ["rng", "random", "dotnet", "knuth"]
+categories = ["no-std::no-alloc", "algorithms", "mathematics", "embedded"]
